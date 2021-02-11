@@ -1,0 +1,54 @@
+/* ボタン全体 */
+.flowbtn{
+  border-radius:4px;
+  position:relative;
+  display:inline-block;
+  width:200px;
+  height:50px;
+  font-size:30px;
+  color:#fff!important;
+  /* transition:.5s; */
+  text-decoration:none;
+  box-shadow:0 1px 2px #999;
+  }
+  .flowbtn img {
+    display: flex;
+    margin: 0 auto;
+  }
+  .flowbtn i{
+  position:relative;
+  bottom:-10px;
+  display: flex;
+  justify-content: center;
+  }
+  /* Twitter */
+  .fl_tw1{
+  background:#55acee;
+  }
+  /* Facebook */
+  .fl_fb1{
+  background:#3b5998;
+  }
+  /* はてブ */
+  .fl_hb1{
+  background:#1ba5dc;
+  }
+
+  /* LINE */
+  .fl_li1{
+  background:#00c300;
+  }
+ 
+  /* ulタグの内側余白を０にする */
+
+  /* ボタン全体の位置調整 */
+  .snsbtniti{
+  display:flex;
+  flex-flow:row wrap;
+  /* justify-content:space-around; */
+  }
+  /* ボタン同士の余白調整 */
+  .snsbtniti li{
+  flex:0 0 33%;
+  text-align:center!important;
+  }
